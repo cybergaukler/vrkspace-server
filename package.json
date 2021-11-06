@@ -1,0 +1,27 @@
+{
+  "name": "vrkspace-server",
+  "version": "1.0.0",
+  "description": "a server for the vue based vrkspace frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybergaukler/vrkspace-server.git"
+  },
+  "keywords": [
+    "vr",
+    "vrkspace"
+  ],
+  "author": "cybergaukler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybergaukler/vrkspace-server/issues"
+  },
+  "homepage": "https://github.com/cybergaukler/vrkspace-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^8.2.3"
+  }
+}
