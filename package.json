@@ -1,8 +1,8 @@
 {
-  "name": "vrkspace-server",
+  "name": "vrkspace",
   "version": "1.0.0",
-  "description": "a server for the vue based vrkspace frontend",
-  "main": "index.js",
+  "description": "a personal server for your vrkspace",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +21,13 @@
   },
   "homepage": "https://github.com/cybergaukler/vrkspace-server#readme",
   "dependencies": {
+    "eslint": "^8.26.0",
     "express": "^4.17.1",
+    "three": "^0.146.0",
+    "three-mesh-ui": "^6.5.2",
     "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0"
   }
 }

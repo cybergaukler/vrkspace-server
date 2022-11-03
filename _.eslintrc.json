@@ -1,0 +1,15 @@
+{
+    "env": {
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent":["error",4],
+        "max-len":["error",512],
+        "linebreak-style": ["error","windows"],
+        "no-tabs": ["error", {"allowIndentationTabs": true}],
+        "no-undef": "error"
+    }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>VRKSpace - An experimental desk-scaled-vr experience focused on productivity</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="VR, a-frame, webXR, webVR">
+    <meta name="description" content="VRKSpace - An experimental desk-scaled-vr experience focused on productivity">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+  
+  <div class="navigation">
+    <div class="logo"><span>VRKSpace&nbsp;</span><sup>[vɛʁkspeɪs]</sup></div>
+    <div class="links">
+        <a href="https://github.com/cybergaukler/vrkspace/wiki" target="_blank"><i class="fab fa-github-square"></i>&nbsp;Philosophy&More</a>
+    </div>
+  </div>
+
+  <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./three/build/three.module.js",
+        "three-mesh-ui": "https://unpkg.com/three-mesh-ui@6.4.0/build/three-mesh-ui.module.js",
+        "three/addons/": "./three/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="./src/main.js"></script>
+  <div id="VRKSpace"></div>
+
+  <div class="introduction">
+    <div class="configHead">
+      <span>Before you take a seat...</span>
+      <div class="selectConfig">
+          <select id="selectedConfig" title="select your configuration">
+              <option value="Default" selected="selected">Please configure</option>
+              <option value="HTCViveBasic">Vive Basic</option>
+          </select>
+      </div>
+  </div>
+  <div class="configBody">
+
+      <div class="configSteps None">
+          Hello VRKSPace
+      </div>
+
+      <div class="configSteps HTCViveBasic">
+          Please place the VIVE Controllers on either side of your physical desk, close to the front edge as shown above.<br />
+          <ul>
+              <li>The controllers must be active.</li>
+              <li>Left Controller should be on the left side of the desk, right controller on the right side.</li>
+          </ul>
+          Then click enterVR with your mouse and put on the headset.<br />
+          In VR, to align the desk to your physical desk, push both GRIP and MENU on both controllers simultaneously.
+      </div>
+
+  </div>
+  </div>
+</body>
+<style>
+  body, html {
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+  .navigation {
+    position: absolute;
+    z-index:2;
+    width:100%;
+    height: 2em;
+    font-size: 1em;
+    left:0;
+    padding: 0.2em;
+    background-color: #555555;
+    color: #a0a0a0;
+  }
+  .navigation .logo {
+    float: left;
+    margin-left:0.2em;
+  }
+  .navigation .logo span{
+      font-weight: bold;
+      color: #F8F8F8;
+  }
+  .navigation .links {
+      float: right;
+      margin-right: 8em;
+  }
+  .navigation .links a {
+      display: block;
+      float: left;
+      margin-left: 2em;
+      color: orange;
+  }
+  .navigation .links a:hover {
+      color: #F8F8F8;
+  }
+  #VRKSpace {
+    position:relative;
+    width:100%;
+    height:50%;
+  }
+  .label {
+      color: #FFF;
+      font-family: sans-serif;
+      padding: 2px;
+      background: rgba( 0, 0, 0, .6 );
+    }
+  .introduction {
+    position:relative;
+    width:100%;
+    height:50%;
+  }
+</style>
+</html>
