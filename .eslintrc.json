@@ -4,10 +4,7 @@
         "node": true
     },
     "parser": "babel-eslint",
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 5
-    },
+    "parserOptions": { "sourceType": "module" },
     "rules": {
         "indent": [
             "error",

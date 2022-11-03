@@ -60,7 +60,7 @@ async function init() {
     }
    
     const systemInfoText = `pixel ratio: ${ (window.devicePixelRatio) ? window.devicePixelRatio : 'unknown' }`
-    const systemInfo = new UIText(systemInfoText,(2.1,2,-2.99))
+    const systemInfo = new UIText('cybergaukler', systemInfoText, [2.1,2,-2.99])
     await systemInfo.initialize()
     console.log(systemInfo.container)
     scene.add( systemInfo.container )

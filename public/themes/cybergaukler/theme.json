@@ -1,9 +1,0 @@
-{
-    "shader": "MeshToonMaterial",
-    "decorations": [
-        { 
-            "name" : "houseplant",
-            "model" : "low_poly_plant_in_a_pot.glb"
-        }
-    ]
-}

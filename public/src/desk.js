@@ -4,7 +4,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 class Desk {
 
-	constructor( width=2, height=2, depth=1, theme = 'cybergaukler' ) {
+	constructor( theme = 'cybergaukler', width=2, height=2, depth=1 ) {
         this.type = 'Desk';
         this.parameters = {
 			width: width,
@@ -16,7 +16,7 @@ class Desk {
     }
     async initialize() {
         console.log(this.type)
-        const loader = new GLTFLoader().setPath( `./src/themes/${ this.parameters.theme }/desk/` );
+        const loader = new GLTFLoader().setPath( `./themes/${ this.parameters.theme }/desk/` );
         const top = await loader.loadAsync( 'deskTop.glb'); 
         const back = await loader.loadAsync( 'deskBack.glb'); 
 
