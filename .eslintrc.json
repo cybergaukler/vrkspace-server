@@ -1,10 +1,16 @@
 {
     "env": {
-        "browser": true,
-        "node": true
+        "browser": true
     },
-    "parser": "babel-eslint",
-    "parserOptions": { "sourceType": "module" },
+    "parser": "@babel/eslint-parser",
+    "plugins": [
+        "@babel"
+    ],
+    "parserOptions": { 
+        "requireConfigFile": false,
+        "ecmaVersion": "latest",
+        "sourceType": "module" 
+    },
     "rules": {
         "indent": [
             "error",
