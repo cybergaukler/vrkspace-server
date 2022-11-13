@@ -10,7 +10,7 @@ class Theme {
      */
   constructor( ) {
     this.type = 'Theme';
-    this.name = 'intro';
+    this.name = 'pineWood';
     this.config = {
       shader: 'MeshToonMaterial',
       background: 0x505050,
@@ -26,6 +26,7 @@ class Theme {
         },
       },
       environment: {
+        position: [0, -1, 0],
       },
       decorations: {
       },
