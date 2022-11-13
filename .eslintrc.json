@@ -1,24 +1,32 @@
 {
     "env": {
+        "es6": true,
         "browser": true
     },
     "parser": "@babel/eslint-parser",
     "plugins": [
         "@babel"
     ],
+    "extends": "google",
     "parserOptions": { 
         "requireConfigFile": false,
         "ecmaVersion": "latest",
         "sourceType": "module" 
     },
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
         "linebreak-style": [
             "error",
             "windows"
+        ],
+        "valid-jsdoc": [
+            "error", { 
+                "requireReturnType": false,
+                "requireReturn": false 
+            }
+        ],
+        "max-len": [
+            "error",
+            512
         ],
         "quotes": [
             "error",
