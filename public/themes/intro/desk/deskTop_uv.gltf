@@ -1,0 +1,78 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "deskTop"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0
+                    },
+                    "indices" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 28,
+            "max" : [
+                0.5,
+                0.019999997690320015,
+                0.08999999612569809
+            ],
+            "min" : [
+                -0.5,
+                0,
+                -0.19999998807907104
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5123,
+            "count" : 156,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 312,
+            "byteOffset" : 336,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 648,
+            "uri" : "data:application/octet-stream;base64,j8L1vgAAAADrUbg9j8L1PgAAAADrUbg9AAAAvwAAAAAK16M8CtejPgAAAADMzEy+j8J1vQAAAADrUTi+CtejvgAAAADMzEy+CtejPQAAAADMzEy+CtejvQAAAADMzEy+j8J1PQAAAADrUTi+AAAAPwAAAAAK16M8mZmZvgAAAADrUbg9mZmZPgAAAADrUbg9uB6FvgAAAADNzEw9uB6FPgAAAADNzEw9j8L1vgnXozzrUbg9j8L1PgnXozzrUbg9AAAAvwnXozwK16M8CtejPgnXozzMzEy+j8J1vQnXozzrUTi+CtejvgnXozzMzEy+CtejPQnXozzMzEy+CtejvQnXozzMzEy+j8J1PQnXozzrUTi+AAAAPwnXozwK16M8mZmZvgnXozzrUbg9mZmZPgnXozzrUbg9uB6FvgnXozzNzEw9uB6FPgnXozzNzEw9CgAAAAIAAgAFAAcAAgAHAAQADAAKAAIAAQALAA0ADQAMAAIAAgAEAAgACAAGAAMAAwAJAAEADQACAAgAAwABAA0ACAADAA0AEAAOABgAEAAYABoAFQATABAAEgAVABAAEAAaABsAGwAZAA8ADwAXABEAEQAUABYAFgASABAAGwAPABEAFgAQABsAGwARABYABAAHABUABAAVABIAAgAAAA4AAgAOABAABgAIABYABgAWABQACwABAA8ACwAPABkAAQAJABcAAQAXAA8ACQADABEACQARABcAAAAKABgAAAAYAA4ABQACABAABQAQABMADQALABkADQAZABsACAAEABIACAASABYACgAMABoACgAaABgABwAFABMABwATABUADAANABsADAAbABoAAwAGABQAAwAUABEA"
+        }
+    ]
+}
